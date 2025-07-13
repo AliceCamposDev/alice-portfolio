@@ -1,0 +1,46 @@
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.about-buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.about-buttons button{
+    border: none;
+    width: 80%;
+    height: 55px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-shadow: 0 0 2px #000000;
+}
+
+.button-github {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.button-linkedin {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.button-youtube {
+  background-color: var(--tertiary-color);
+  color: white;
+}
+
+.about-list{
+    align-items: center;
+    width:50%;
+    text-align: left;
+}
