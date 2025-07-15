@@ -1,11 +1,16 @@
-
-.projectGrid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit , minmax(120px, 1fr));
-        gap: 5rem;
-        justify-items: center;
-        align-items: center;
-        padding: 5px;
-        margin: 5px auto;
-        max-width: 90%;
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 5rem;
+  justify-items: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px auto;
+  max-width: 90%;
+}
+.sectionTitle {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-shadow: 0 0 6px #c95fff;
 }

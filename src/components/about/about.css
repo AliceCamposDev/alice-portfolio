@@ -1,29 +1,36 @@
-.about{
-    display: flex;
-    align-items: center;
+.about {
+  display: flex;
+  align-items: center;
 }
 
-.about-buttons{
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
+.about-buttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
-.about-buttons button{
-    border: none;
-    width: 80%;
-    height: 55px;
-    border-radius: 8px;
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    text-shadow: 0 0 2px #000000;
+.about-buttons button {
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  height: 55px;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  text-shadow: 0 0 2px #000000;
+  transition: background-color 0.3s ease-in-out;
 }
 
+.about-buttons button:hover {
+  border: 1px solid #8a2be2;
+  box-shadow: 0 0 10px #3a0ca3;
+  transition: 0.3s;
+}
 .button-github {
   background-color: var(--primary-color);
   color: white;
@@ -39,8 +46,8 @@
   color: white;
 }
 
-.about-list{
-    align-items: center;
-    width:50%;
-    text-align: left;
+.about-list {
+  align-items: center;
+  width: 50%;
+  text-align: left;
 }

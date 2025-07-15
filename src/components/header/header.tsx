@@ -9,7 +9,7 @@ export default function Header() {
       </div>
       <div className="header-text">
         <h1>Alice Campos</h1>
-        <p className="subtitle">full stack dev🖤</p>
+        <p className="subtitle">full stack dev 🖤</p>
       </div>
     </header>
   );

@@ -4,11 +4,13 @@
   background-color: #1e1e2f;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   transition: transform 0.2s ease, box-shadow 0.3s ease;
   width: 180px;
   margin: 10px;
   color: #ffffff;
+  border: 1px solid #8a2be2;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #3a0ca3;
 }
 
 .project:hover {
@@ -17,7 +19,7 @@
 }
 
 .projectTitle {
-  background: linear-gradient(to right, #4e00c2, #7b00ff);
+  background: linear-gradient(to right, var(--primary-color), #8a2be2);
   padding: 10px;
   display: flex;
   flex-direction: column;
