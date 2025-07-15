@@ -1,21 +1,69 @@
+import placeholder from "../../assets/placeholder.jpg"
+import "./projects.css"
+
 export default function Projects() {
   return (
-    <div className="section">
+    <>
       <h3>Projects</h3>
+      <div className="projectGrid">
+         <div className="project">
+          <div className="projectTitle">
+            <p>Infinity Shards</p>
+            <p>card game</p>
+          </div>
+          <div className = "projectImgContainer">
+            <img className = "projectImg" src={placeholder} alt="" />
+          </div>
+  
+          <a href="#">View Project</a>
+        </div>
+
         <div className="project">
-          <h4>Card Game</h4>
-          <p>
-            React + Java backend game project with retro style.
-          </p>
+          <div className="projectTitle">
+            <p>Infinity Shards</p>
+            <p>card game</p>
+          </div>
+          <div className = "projectImgContainer">
+            <img className = "projectImg" src={placeholder} alt="" />
+          </div>
+  
           <a href="#">View Project</a>
         </div>
         <div className="project">
-          <h4>NLP emotion classifier</h4>
-          <p>
-            Python library for structured cloud-friendly logging with threading.
-          </p>
+          <div className="projectTitle">
+            <p>Infinity Shards</p>
+            <p>card game</p>
+          </div>
+          <div className = "projectImgContainer">
+            <img className = "projectImg" src={placeholder} alt="" />
+          </div>
+  
           <a href="#">View Project</a>
         </div>
-    </div>
+        <div className="project">
+          <div className="projectTitle">
+            <p>Infinity Shards</p>
+            <p>card game</p>
+          </div>
+          <div className = "projectImgContainer">
+            <img className = "projectImg" src={placeholder} alt="" />
+          </div>
+  
+          <a href="#">View Project</a>
+        </div>
+        <div className="project">
+          <div className="projectTitle">
+            <p>Infinity Shards</p>
+            <p>card game</p>
+          </div>
+          <div className = "projectImgContainer">
+            <img className = "projectImg" src={placeholder} alt="" />
+          </div>
+  
+          <a href="#">View Project</a>
+        </div>
+      </div>
+       
+    </>
   );
 }
