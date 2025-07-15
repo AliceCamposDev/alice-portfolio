@@ -12,7 +12,20 @@
     text-shadow: 0 0 6px #c95fff;
 }
 .avatar {
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
     margin-right: 20px;
+    animation: fly 3s ease-in-out infinite;
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
 }
