@@ -1,39 +1,11 @@
-.projectImg{
-    width: 150px;
-    height: 150px;
-}
-.project{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(97, 97, 97);
-    padding: 0px;
-}
-.project p{
-    font-size: smaller;
-    padding: 0px;
-    margin: 0px;
-}
-.project h4{
-    font-size: smaller;
-}
-.projectTitle{
-    padding: 5px;
-    margin: 0px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50px;
-    overflow: hidden;
-    background-color: blue;
-}
+
 .projectGrid{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit , minmax(120px, 1fr));
+        gap: 5rem;
         justify-items: center;
         align-items: center;
-        max-width: 450px;
-        height: 300px;
-        margin: 0 auto;
+        padding: 5px;
+        margin: 5px auto;
+        max-width: 90%;
 }
