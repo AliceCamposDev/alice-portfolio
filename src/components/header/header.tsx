@@ -1,4 +1,4 @@
-import kuromi from "../../assets/kuromi.png";
+import kuromi from "../../../public/assets/project_thumb/kuromi.png";
 import "./header.css";
 
 export default function Header() {

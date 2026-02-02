@@ -1,4 +1,4 @@
-import placeholder from "../../assets/placeholder.jpg"
+import placeholder from "../../../public/assets/project_thumb/placeholder.jpg"
 import d20 from "../../../public/assets/project_thumb/d20.svg"
 import d4 from "../../../public/assets/project_thumb/d4.svg"
 import kuromi from "../../../public/assets/project_thumb/kuromi.png"
