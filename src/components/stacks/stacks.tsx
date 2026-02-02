@@ -4,7 +4,25 @@ export default function Stacks() {
   return (
     <div className="stacks">
       <h3>Main Stacks</h3>
-      <div className="stacks-grid">
+      {/* i know it could be a new component and etc but it would be toooo much over engineering */}
+      <div className="stacks-grid"> 
+        
+        <div className="stacks-item">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            alt="Python"
+          />
+          <p>Python</p>
+        </div>
+        
+        <div className="stacks-item">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg"
+            alt="Angular"
+          />
+          <p>Angular</p>
+        </div>
+
         <div className="stacks-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -14,18 +32,12 @@ export default function Stacks() {
         </div>
         <div className="stacks-item">
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-            alt="Python"
-          />
-          <p>Python</p>
-        </div>
-        <div className="stacks-item">
-          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
             alt="Typescript"
           />
           <p>Typescript</p>
         </div>
+
         <div className="stacks-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -33,6 +45,7 @@ export default function Stacks() {
           />
           <p>Javascript</p>
         </div>
+
         <div className="stacks-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -40,6 +53,7 @@ export default function Stacks() {
           />
           <p>HTML</p>
         </div>
+
         <div className="stacks-item">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -47,6 +61,7 @@ export default function Stacks() {
           />
           <p>CSS</p>
         </div>
+
       </div>
     </div>
   );
