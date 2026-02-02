@@ -1,4 +1,4 @@
-import placeholder from "/assets/placeholder.jpg";
+import placeholder from "/public/assets/placeholder.jpg";
 import "./projectCard.css";
 import { useState } from "react";
 
