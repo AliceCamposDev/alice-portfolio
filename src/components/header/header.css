@@ -30,3 +30,8 @@
     transform: translateY(0) rotate(0deg);
   }
 }
+@media (max-width: 600px) {
+  .avatar{
+    max-height: 200px;
+  }
+}
