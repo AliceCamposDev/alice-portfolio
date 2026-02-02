@@ -26,11 +26,7 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.about-buttons button:hover {
-  border: 1px solid #8a2be2;
-  box-shadow: 0 0 10px #3a0ca3;
-  transition: 0.3s;
-}
+
 .button-github {
   background-color: var(--primary-color);
   color: white;
@@ -50,4 +46,19 @@
   align-items: center;
   width: 50%;
   text-align: left;
+}
+
+.button-github:hover {
+  border: 3px solid var(--secondary-color);
+  box-shadow: 0 0 10px var(--secondary-color);
+}
+
+.button-linkedin:hover {
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+.button-youtube:hover {
+  border: 3px solid var(--secondary-color);
+  box-shadow: 0 0 10px var(--secondary-color);
 }
