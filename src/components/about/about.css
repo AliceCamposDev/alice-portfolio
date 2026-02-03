@@ -49,16 +49,28 @@
 }
 
 .button-github:hover {
-  border: 3px solid var(--secondary-color);
-  box-shadow: 0 0 10px var(--secondary-color);
+  box-shadow: 1px 1px 10px var(--secondary-color);
 }
 
 .button-linkedin:hover {
-  border: 3px solid var(--primary-color);
-  box-shadow: 0 0 10px var(--primary-color);
+  box-shadow: 1px 1px 10px var(--primary-color);
 }
 
 .button-youtube:hover {
+  box-shadow: 1px 1px 10px var(--secondary-color);
+}
+
+.button-github:active {
   border: 3px solid var(--secondary-color);
-  box-shadow: 0 0 10px var(--secondary-color);
+  box-shadow: 1px 1px 10px var(--secondary-color);
+}
+
+.button-linkedin:active {
+  border: 3px solid var(--primary-color);
+  box-shadow: 1px 1px 10px var(--primary-color);
+}
+
+.button-youtube:active {
+  border: 3px solid var(--secondary-color);
+  box-shadow: 1px 1px 10px var(--secondary-color);
 }
