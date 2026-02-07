@@ -1,6 +1,5 @@
-import placeholder from "/public/assets/project_thumb/placeholder.jpg"
+import placeholder from "/public/assets/project_thumb/placeholder.jpg";
 import "./projectCard.css";
-import { useState } from "react";
 
 export default function ProjectCard({
   title = "Place Holder TTl",
@@ -9,24 +8,29 @@ export default function ProjectCard({
   links = [
     { name: "GitHub", url: "https://github.com/alicecamposdev" },
     { name: "Live Demo", url: "https://alicecamposdev.github.io" },
-  ],  
+  ],
+  desc = "Place holder for project description"
 }) {
-  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div
-      className="project"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <div className="projectTitle">
-        <p>{title}</p>
-        <p className="subtitle">{subtitle}</p>
-      </div>
-      <div className="projectImgContainer">
-        <img className="projectImg" src={img} alt={title} />
-      </div>
-      <div className={`projectLinks ${isHovered ? "expanded" : ""}`}>
+      className="project" >
+      <div className="vertical">
+        <div className="projectTitle">
+          <p>{title}</p>
+          <p className="subtitle">{subtitle}</p>
+        </div>
+        <div className="lowerPart">
+          <div className="lowerPartVertical">
+            <div className="projectImgContainer">
+              <img className="projectImg" src={img} alt={title} />
+            </div>
+          </div>
+          <div className="horizontal">
+            <div className="moreInfo" >{desc}</div>
+          </div>
+        </div>
+        <div className="projectLinks">
           {links.map((link, index) => (
             <a
               key={index}
@@ -39,6 +43,7 @@ export default function ProjectCard({
             </a>
           ))}
         </div>
+      </div>
     </div>
   );
 }
