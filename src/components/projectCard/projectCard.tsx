@@ -9,26 +9,20 @@ export default function ProjectCard({
     { name: "GitHub", url: "https://github.com/alicecamposdev" },
     { name: "Live Demo", url: "https://alicecamposdev.github.io" },
   ],
-  desc = "Place holder for project description"
+  desc = "Place holder for project description",
 }) {
-
   return (
-    <div
-      className="project" >
+    <div className="project">
       <div className="vertical">
         <div className="projectTitle">
           <p>{title}</p>
           <p className="subtitle">{subtitle}</p>
         </div>
         <div className="lowerPart">
-          <div className="lowerPartVertical">
-            <div className="projectImgContainer">
-              <img className="projectImg" src={img} alt={title} />
-            </div>
+          <div className="projectImgContainer">
+            <img className="projectImg" src={img} alt={title} />
           </div>
-          <div className="horizontal">
-            <div className="moreInfo" >{desc}</div>
-          </div>
+          <div className="moreInfo">{desc}</div>
         </div>
         <div className="projectLinks">
           {links.map((link, index) => (

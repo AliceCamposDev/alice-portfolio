@@ -1,0 +1,14 @@
+
+.certificationCard{
+    /* background-color: blueviolet; */
+    padding: 10px;
+}
+.imgContainer{
+    height: fit-content;
+    height: 300px;
+}
+
+.imgContainer img{
+    height: 100%;
+
+}

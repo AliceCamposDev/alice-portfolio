@@ -1,0 +1,21 @@
+.certifications {
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.certifications h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-shadow: 0 0 6px #c95fff;
+}

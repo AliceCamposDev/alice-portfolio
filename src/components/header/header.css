@@ -1,22 +1,31 @@
-.header{
-    display: flex;
-    align-items: center;
-    max-height: 200px;
-    margin-bottom: 40px;
+.header {
+  display: flex;
+  align-items: center;
+  max-height: 200px;
+  margin-bottom: 40px;
+  gap: 20px;
+  padding-top: 50px;
+
 }
+
 .header-img {
-    width: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
+
 .header-text {
-    width: 50%;
-    text-align: center;
-    text-shadow: 0 0 6px #c95fff;
+  width: 50%;
+  text-align: center;
+  text-shadow: 0 0 6px #c95fff;
 }
+
 .avatar {
-    height: 250px;
-    border-radius: 50%;
-    margin-right: 20px;
-    animation: fly 3s ease-in-out infinite;
+  height: 230px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 50%;
+  animation: fly 3s ease-in-out infinite;
 }
 
 @keyframes fly {
@@ -30,8 +39,25 @@
     transform: translateY(0) rotate(0deg);
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    max-height: none;
+  }
+  
+  .header-img,
+  .header-text {
+    width: 100%;
+  }
+  
+  .avatar {
+    height: 200px;
+  }
+}
+
 @media (max-width: 600px) {
-  .avatar{
-    max-height: 200px;
+  .avatar {
+    height: 150px;
   }
 }

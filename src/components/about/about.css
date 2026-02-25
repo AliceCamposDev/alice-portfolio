@@ -1,6 +1,7 @@
 .about {
   display: flex;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .about-buttons {
