@@ -1,11 +1,17 @@
 
 .certificationCard{
-    /* background-color: blueviolet; */
-    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    background-color: #161625;
+    overflow: hidden;
+    border-radius: 1.5rem;
 }
 .imgContainer{
     height: fit-content;
-    height: 300px;
+    height: 160px;
 }
 
 .imgContainer img{

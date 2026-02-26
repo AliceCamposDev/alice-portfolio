@@ -1,15 +1,17 @@
 import "./certificationCard.css";
+import placeholder from "/public/assets/project_thumb/placeholder.jpg";
 
-import T99OTKBH from "/public/assets/certifications/T99OTKBH.webp";
-
-export default function certificationCard() {
+export default function certificationCard({
+  title = "Place Holder Title",
+  img = placeholder
+}) {
   return (
     <section className="certificationCard">
         <div className="Title">
-            <h3>Prompt Engineering Technics</h3>
+            <h4>{title}</h4>
         </div>
         <div className="imgContainer">
-            <img src={T99OTKBH} alt="Certificado de Prompt Engineering Technics" />
+            <img src={img} alt={title} />
         </div>
        
         <div className="description">

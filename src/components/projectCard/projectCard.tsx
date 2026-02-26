@@ -3,7 +3,7 @@ import "./projectCard.css";
 
 export default function ProjectCard({
   title = "Place Holder TTl",
-  subtitle = "palce holder subtitle",
+  subtitle = "place holder subtitle",
   img = placeholder,
   links = [
     { name: "GitHub", url: "https://github.com/alicecamposdev" },
