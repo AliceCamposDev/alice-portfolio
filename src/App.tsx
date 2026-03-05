@@ -3,7 +3,7 @@ import About from "./components/about/about";
 import Stacks from "./components/stacks/stacks";
 import Projects from "./components/projects/projects";
 import Certifications from "./components/certifications/certifications";
-import Bio from "./components/bio/bio";
+// import Bio from "./components/bio/bio";
 
 import "./App.css";
 
