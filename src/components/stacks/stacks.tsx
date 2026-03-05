@@ -64,14 +64,6 @@ export default function Stacks() {
 
         <div className="stacks-item">
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-            alt="CSS3"
-          />
-          <p>CSS</p>
-        </div>
-
-        <div className="stacks-item">
-          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
             alt="Docker"
           />
