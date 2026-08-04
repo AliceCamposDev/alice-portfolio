@@ -6,7 +6,7 @@ export default function About() {
       <div className="about-list">
         <p>Languages: English and Portuguese</p>
         <p>Location: Brazil</p>
-        <p>Age: 22yo</p>
+        <p>Age: 23yo</p>
       </div>
       <div className="about-buttons">
         <button
